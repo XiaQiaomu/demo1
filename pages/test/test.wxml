@@ -1,0 +1,8 @@
+<view>
+  <datepicker value="{{solar}}" bindchange="bindSolarChange">
+    <button type="default">公历</button>
+  </datepicker>
+  <datepicker value="{{lunar}}" chinese="{{true}}" bindchange="bindLunarChange" picker-class="weui-btn">
+    <button type="default">农历</button>
+  </datepicker>
+</view>
